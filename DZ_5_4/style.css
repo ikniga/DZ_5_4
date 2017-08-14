@@ -19,6 +19,12 @@ body{
 	min-height: 20px;
 	margin:10px;
 }
+.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+}
 .main{
  	height:380px;
  	width:60%;
